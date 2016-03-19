@@ -41,7 +41,7 @@
 /* only build this test if the UART driver is supported */
 #if UART_NUMOF
 
-#define DEV             UART_DEV(0)
+#define DEV             UART_DEV(1)
 #define BAUD            115200
 
 static volatile int main_pid;
